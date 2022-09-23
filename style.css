@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+      display: flex;
+      box-shadow: 3px 5px 5px rgb(1 1 1 / 20%);
+      position: fixed;
+      height: 100px;
+}
+
+.left{
+     margin: 0px 150px;
+}
+
+.right{
+    margin: 30px 900px;
+}
+
+#First{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+}
+
+.beside{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  margin: 50px;
+}
+
+.image{
+  padding:0px 100px;
+  margin-top: 30px;
+}
+
+#First img{
+ 
+}
+
+.discount{
+   background-color: rgb(84, 250, 84);
+   padding: 10px;
+   width: 179px;
+}
+
+.Heading{
+font-size: 80px;
+padding: 20px;
+}
+
+.Para{
+   font-size: 20px;
+   margin-bottom: 30px;
+}
+
+.btn{
+ background-color: rgb(228, 190, 52);
+ font-size: 15px;
+ padding: 5px;
+ width: 110px;
+}
+
+#services{
+   margin: 41px;
+   display: flex;
+ }
+ 
+ #services .box{
+     box-shadow: 3px 5px 5px rgb(1 1 1 / 20%);
+     padding: 34px;
+     margin: 2px 35px;
+     border-radius: 28px;
+     margin-bottom: 20px;
+     transition: all 0.2s ease-in-out 0s;
+ }
+
+ #services .box:hover{
+   transform: scale(1.02);
+ }
+ 
+ #services .box img{
+     height: 56px;
+     display: block;
+     margin: auto;
+ }
+ 
+ #services .box p{
+     margin-bottom: 0px;
+ }
+
+.h-secondary{
+font-size: 1.3rem;
+padding: 5px;
+}
+
+.center{
+   text-align: center;
+}
+
+#Menu{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.men{
+   background-color: rgb(34, 233, 34);
+   padding: 10px;
+}
+
+.explore{
+   font-size: 30px;
+   padding: 50px;
+}
+
+.menuimg{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap:8px;
+}
+
+.img1{
+   transition: all 0.2s ease-in-out 0s;
+}
+
+.img1:hover{
+   transform: scale(1.05);
+}
+
+footer{
+   display: flex;
+   background-color: rgb(107, 184, 251);
+   height: 300px;
+   justify-content: center;
+   align-items: center;
+}
+
+.st,.nd,.rd,.th{
+   padding: 100px;
+}
+
+.nd ul li,
+.rd ul li{
+   padding:10px;
+   text-decoration: none;
+   list-style: none;
+}
+
+.nd h1,
+.rd h1,
+.th h1{
+   margin-bottom: 10px;
+}
+
+.form_control{
+   display: flex;
+   flex-direction: column;
+}
+
+.hc{
+   margin-top: 10px;
+}
+
+.rd ul{
+   margin-bottom: 40px;
+}
+
+.th{
+   margin-bottom:  50px;
+}
+.lg{
+   margin-left: 30px;
+}
+.pby{
+   background-color: black;
+   color: white;
+   padding: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
